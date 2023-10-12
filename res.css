@@ -1,0 +1,231 @@
+*{
+    font-family: "josefin sans";
+}
+#con{
+    background-color: green;
+    width: 100%;
+    height: 40px;
+}
+
+#navbar a{
+    font-size: large;
+    color: black;
+
+    
+}
+
+#table table{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#text12{
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+}
+
+#sec-cor{
+    background-image: url(https://hyderabadittrainings.com/images/bg-2.jpg);
+    padding: 0;
+
+}
+
+
+#sec-cor{
+    color: white;
+}
+
+#sec-cor i{
+    font-size: 80px;
+}
+
+
+#bg-cor{
+    background-color: rgba(0, 0, 255, 0.478);
+}
+
+figure img{
+    width: 100% !important;
+}
+
+
+#sticky-nav{
+    position: sticky;
+    z-index: 1;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+}
+
+#courses-bg{
+    background-color: lightgray;
+}
+
+#tran-col{
+    background-color: lightgray;
+}
+
+#placement{
+    background-color: #edf0f2;
+}
+
+#placement p{
+    padding: 20px 10px;
+}
+
+#footer{
+background-color: green;
+color: white;
+}
+
+
+#f2-col{
+    background-color: #285803;
+}
+
+#f-size p{
+    font-size: 25px;
+}
+
+#f-col-a a{
+    text-decoration: none;
+    color: white;
+}
+
+form input , textarea {
+    border: 1px solid rgba(128, 128, 128, 0.692) !important;
+}
+
+form textarea{
+    height: 100px;
+    width: 100px;
+    resize: none;
+}
+
+#con-bg{
+    background-color: #edf0f2;
+}
+
+#contact-last p{
+    color: #000;
+    font-size: 16px;
+    
+}
+
+#about-bg{
+    background-image: url(page-banner-1.jpg);
+    background-position: center;
+    padding: 0;
+}
+
+#ab-bg-cl{
+    background-color: #2b4460e6;
+}
+
+#collapsibleNavId a:hover{
+    color: #ffc911 !important;
+
+    
+}
+
+#collapsibleNavId a{
+    transition: 1s;
+}
+
+@media (max-width:992px){
+    #con{
+        visibility: 0 !important;
+        display: none !important;
+    }
+}
+
+#placement img{
+    box-shadow: 4px 4px 10px 2px orange;
+    margin: 10px;
+}
+
+h1{
+    font-size: 28px;
+}
+
+#col-17a2b8{
+    background-color: #17a2b8;
+}
+
+#col-6c757d{
+    background-color: #6c757d ;
+}
+
+#img-train figure img{
+    width: 40% !important;
+   
+}
+
+#img-train figure{
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+#text12 figure img{
+    width: 40% !important;
+}
+
+#img-train figcaption{
+    padding-top: 10px;
+    font-size: 21px;
+}
+
+
+#text12 figcaption{
+    padding-top: 20px;
+}
+
+#tabl th{
+    background-color: #002046;
+    color: white;
+}
+
+
+#tabl td{
+    padding: 12px;
+}
+
+
+#tabl a{
+    color: red;
+    text-decoration: none;
+}
+
+#sec-cor p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#testimo p{
+    font-size: 16px;
+  font-weight: 400px;
+  line-height: 28px;
+  color: #000;
+  margin: 0px;
+}
+
+
+#contact-last i{
+   
+    
+    font-size: 30px;
+}
+
+#market{
+    height: 110px;
+}
+
+#contact-last p{
+    text-wrap: nowrap !important;
+}
