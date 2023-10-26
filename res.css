@@ -66,6 +66,22 @@ figure img{
 #courses-bg{
     background-color: lightgray;
 }
+figure{
+    overflow: hidden;
+}
+figure img{
+    transition:1s;
+}
+figure img:hover{
+    transform: scale(1.1);
+}
+figure figcaption{
+position: relative;
+}
+#courses-bg a{
+    text-decoration: none;
+    color: black;
+}
 
 #tran-col{
     background-color: lightgray;
@@ -74,10 +90,10 @@ figure img{
 #placement{
     background-color: #edf0f2;
 }
-
-#placement p{
-    padding: 20px 10px;
+#placement img{
+    width: 100%;
 }
+
 
 #footer{
 background-color: green;
@@ -124,8 +140,20 @@ form textarea{
     padding: 0;
 }
 
+#about-bg p {
+    font-size: 27px;
+}
+
+#about-bg a{
+    font-size: 27px;
+}
+
+#about-bg span{
+    font-size: 27px;
+}
+
 #ab-bg-cl{
-    background-color: #2b4460e6;
+    background-color: white;
 }
 
 #collapsibleNavId a:hover{
@@ -138,7 +166,15 @@ form textarea{
     transition: 1s;
 }
 
-@media (max-width:992px){
+#courses-bg a:hover{
+    color: rgb(3, 166, 3);
+}
+
+#courses-bg a{
+    transition: 1s ;
+}
+
+@media (max-width:1212px){
     #con{
         visibility: 0 !important;
         display: none !important;
@@ -222,7 +258,53 @@ h1{
     font-size: 30px;
 }
 
+#con p{
+    text-wrap: nowrap !important;
+}
+
 #market{
     height: 110px;
 }
+
+#content-form input{
+    padding: 10px 20px;
+}
+
+#content-form {
+    background-color: #fffafa;
+}
+
+#form-bg{
+    background-color: white;
+    border: 1px solid transparent;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#form-bg h1{
+    background-color: #285803;
+    
+    margin-bottom: 20px ;
+    padding: 10px 0;
+    color: white;
+}
+#content-form h1{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+#content-form p{
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+#navbar a{
+    color: #2f4c6a;
+    font-weight: 400;
+    
+}
+
+#Company-name p{
+padding: 10px;
+}
+
 
